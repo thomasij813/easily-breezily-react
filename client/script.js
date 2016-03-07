@@ -34,7 +34,7 @@ class Body extends React.Component {
         <h3>Directions</h3>
         <p>The server and Sass compilation relies on Node and npm. Make sure these are installed are on your computer.</p>
         <p>After downloading the boilerplate into your project directory, run <code>npm install</code> to download the dependencies.</p>
-        <p>To run the server, open a terminal, navigate to the root of your project directory, and run <code>node server.js</code>. To see your app, go to localhost:3000 in your browswer.</p>
+        <p>To run the server, open a terminal, navigate to the root of your project directory, and run <code>nodemon server.js</code>. To see your app, go to localhost:3000 in your browswer.</p>
         <p>The package.json file contains two scripts for compiling Sass:</p>
         <ul>
           <li>To do a one time compile, type <code>npm run build-css</code> into your terminal.</li>

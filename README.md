@@ -10,12 +10,12 @@ The server and Sass compilation relies on Node and npm. Make sure these are inst
 
 After downloading the boilerplate into your project directory, run `npm install` to download the dependencies.
 
-To run the server, open a terminal, navigate to the root of your project directory, and run `node server.js`. To see your app, go to localhost:3000 in your browswer.
+To run the server, open a terminal, navigate to the root of your project directory, and run `nodemon server.js`. To see your app, go to localhost:3000 in your browswer.
 
 The package.json file contains two scripts for compiling Sass:
 
--To do a one time compile, type npm run build-css into your terminal.
--To watch your Sass directory and compile on file changes, type npm run watch-css.
+-To do a one time compile, type `npm run build-css` into your terminal.
+-To watch your Sass directory and compile on file changes, type `npm run watch-css`.
 
 ### References
 
